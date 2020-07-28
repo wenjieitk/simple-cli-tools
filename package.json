@@ -2,7 +2,9 @@
   "name": "simple-cli-tools",
   "version": "1.0.0",
   "description": "cli-tools for csv generator",
-  "main": "src/index.js",
+  "bin": {
+    "wenjie": "./src/index.js"
+  }, 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
