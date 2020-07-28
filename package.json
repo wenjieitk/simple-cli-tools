@@ -1,0 +1,25 @@
+{
+  "name": "simple-cli-tools",
+  "version": "1.0.0",
+  "description": "cli-tools for csv generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://wenjieitk@github.com/wenjieitk/simple-cli-tools.git"
+  },
+  "author": "Sing Wen Jie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenjieitk/simple-cli-tools/issues"
+  },
+  "homepage": "https://github.com/wenjieitk/simple-cli-tools#readme",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "csv-writer": "^1.6.0",
+    "yargs": "^15.4.1"
+  }
+}
